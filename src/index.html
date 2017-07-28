@@ -81,16 +81,16 @@
     <script>
     var area1 = new LArea();
     area1.init({
-        'trigger': '#demo1', //触发选择控件的文本框，同时选择完毕后name属性输出到该位置
-        'valueTo': '#value1', //选择完毕后id属性输出到该位置
+        'trigger': '#demo1', //Triggers the text box that selects the control, and selects the finished name attribute to output to that location
+        'valueTo': '#value1', //Select the after id attribute to output to this location
         'keys': {
             id: 'id',
             name: 'name'
-        }, //绑定数据源相关字段 id对应valueTo的value属性输出 name对应trigger的value属性输出
-        'type': 1, //数据源类型
-        'data': LAreaData //数据源
+        }, //The correlation field id of the bound data source corresponds to valueTo's value property output name corresponding to trigger's value attribute output
+        'type': 1, //Data source type
+        'data': LAreaData //Data source
     });
-    area1.value=[18,2,2];//控制初始位置，注意：该方法并不会影响到input的value
+    area1.value=[18,2,2];//Control the initial location, note: this method does not affect the value of the input
     </script>
 </body>
 
